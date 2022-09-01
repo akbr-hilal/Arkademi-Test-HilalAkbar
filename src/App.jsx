@@ -126,7 +126,13 @@ function App() {
       {/* Copyright */}
       <div className='bg-footer'>
           <div className='container '>
-            <p className='m-0 py-2'>	&copy; 2022 PT. Arkademi Daya Indonesia </p>
+            <div className="d-block d-lg-flex justify-content-between">
+              <p className='m-0 py-2 text-center text-md-start'>	&copy; 2022 PT. Arkademi Daya Indonesia </p>
+              <div className='d-flex py-2 justify-content-center justify-content-md-start'>
+                <p className='m-0 me-5 fw-bold'>Kententuan Layanan</p>
+                <p className='m-0 fw-bold'>Kontak</p>
+              </div>
+            </div>
           </div>
       </div>
     </div>

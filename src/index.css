@@ -87,7 +87,7 @@ li {
 
 .bg-footer {
   background-color: #F1F2F4;
-  height: 6vh;
+  height: auto;
   color: #94969B;
 }
 
