@@ -124,6 +124,19 @@ li {
   background: linear-gradient(180deg, #F3F5F7 0%, #FFFFFF 100%);
 }
 
+.card {
+  width: 14rem;
+  margin-left: 50px;
+}
+
+.card-body h6{
+  font-size: 16px;
+}
+
+.card-body small {
+  font-size: 12px;
+}
+
 @media screen and (max-width: 640px) {
 
   .lg{
@@ -145,5 +158,17 @@ li {
 
   .img-about {
     width: 360px;
+  }
+
+  .card {
+    width: 12rem;
+  }
+
+  .card-body h6{
+    font-size: 14px;
+  }
+
+  .card-body small {
+    font-size: 11px;
   }
 }

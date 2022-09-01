@@ -6,7 +6,7 @@ import CardImg from '../../assets/card.png'
 function CardComponent() {
   return (
     <div>
-      <div className='card text-start shadow' style={{ width: '14rem' }}>
+      <div className='card text-start shadow'>
         <img src={CardImg} alt="Card Img" className='card-img-top' />
         <div className="card-body">
           <small className='text-muted'>Arkademi</small>
