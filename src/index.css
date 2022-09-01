@@ -163,6 +163,9 @@ li {
   .card {
     width: 12rem;
   }
+  .card img {
+    width: 170px;
+  }
 
   .card-body h6{
     font-size: 14px;
