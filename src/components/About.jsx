@@ -11,8 +11,8 @@ function About() {
   return (
     <div className='container'>
       <div className="d-block d-md-flex align-items-center">
-        <div className='me-4'>
-          <img src={Img} alt="img icon about" />
+        <div className='me-4 d-flex d-lg-block justify-content-center justify-content-lg-start'>
+          <img src={Img} alt="img icon about" className='img-about'/>
         </div>
         <div>
           <img src={Logo} alt="logo" />
@@ -23,7 +23,7 @@ function About() {
           <p className='m-0 mt-3' style={{ fontSize: '14px', textAlign: 'justify' }}>
             Arkademi adalah bagian program inkubasi dan akselerator dari perusahaan top-level dunia: SOSV MOX (Mobile Only Accelerator), Amazon Web Service (Edstart Program) dan Y Combinator (Startup School) yang dipilih dari tech startup edukasi terbaik dunia.
           </p>
-          <div className='d-flex mt-3'>
+          <div className='d-flex mt-3 about'>
             <img src={mox} alt="" height='24px' className='me-4'/>
             <img src={yCombinator} alt="" height='24px' className='me-4'/>
             <img src={aws} alt="" height='24px'className='me-4'/>

@@ -138,4 +138,12 @@ li {
     width: auto;
     font-size: 16px;
   }
+
+  .about img{
+    height: 18px;
+  }
+
+  .img-about {
+    width: 360px;
+  }
 }
